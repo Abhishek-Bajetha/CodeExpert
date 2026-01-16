@@ -1,9 +1,8 @@
-# 🚀 AI-Powered Code Developer Toolkit
+# 🚀 AI-Powered Code Developer Toolkit (CodeExpert)
 
 > A full-stack web application that leverages Google's Gemini AI to assist developers with code conversion, debugging, optimization, and documentation.
 
-![Project Banner](https://via.placeholder.com/1000x300?text=AI+Developer+Toolkit+Screenshot)
-*(Replace the link above with a screenshot of your application's dashboard)*
+![Project Banner](projectBanner.png)
 
 ## 📖 Overview
 
@@ -24,7 +23,7 @@ Built with **Spring Boot** for a robust backend and **MySQL** for persistent his
 ## 🛠️ Tech Stack
 
 **Backend**
-* ![Java](https://img.shields.io/badge/Java-17%2B-orange)
+* ![Java](https://img.shields.io/badge/Java-21%2B-orange)
 * ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green)
 * ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 * ![Maven](https://img.shields.io/badge/Maven-Build_Tool-red)
@@ -81,7 +80,7 @@ Follow these instructions to set up the project locally.
     * In `application.properties`, add your Google Gemini API key:
         ```properties
         gemini.api.key=YOUR_GOOGLE_API_KEY
-        gemini.api.url=[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=](https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=)
+        gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=
         ```
 
 4.  **Run the Application**
@@ -105,10 +104,10 @@ Follow these instructions to set up the project locally.
 ## 📸 Screenshots
 
 ### 1. Code Conversion Tool
-![Converter Interface](image.png)
+![Converter Interface](converter.png)
 
 ### 2. User History Dashboard
-![History Table](image-1.png)
+![History Table](history.png)
 
 ## 🔮 Future Improvements
 
