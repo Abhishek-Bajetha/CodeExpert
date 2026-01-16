@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Port Lligat Slab", serif;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+html,
+body {
+  width: 100%;
+  background: linear-gradient(to right, #203850, #052659, #021024);
+}
+form {
+  width: 300px;
+  background-color: rgba(247, 248, 248, 0.411);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px #161616;
+  padding: 20px;
+  margin-top: 100px;
+}
+input {
+  width: 90%;
+  height: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(226, 223, 223, 0.815);
+  font-size: 15px;
+  margin-top: 3vh;
+  padding: 15px;
+  outline: none;
+}
+button {
+  margin-top: 0.8vh;
+  margin-bottom: 3vh;
+  border-radius: 5px;
+  /* border: 0.5px black solid; */
+  background-color: rgba(7, 93, 192, 0.644);
+  color: white;
+  padding: 6px 100px;
+  font-weight: 300;
+  font-size: 15px;
+  border: none;
+}
+.another {
+  border-top: 1px solid rgb(70, 69, 69);
+  margin: 0px 20px;
+  padding: 10px 0;
+}
+.another a {
+  text-decoration: none;
+  color: blue;
+}

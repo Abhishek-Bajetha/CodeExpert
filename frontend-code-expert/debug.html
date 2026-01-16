@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/debug.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <h1>Coding Expert</h1>
+      </div>
+      <div class="right">
+        <a href="index.html">Home</a>
+        <a id="authLink" href=""></a>
+      </div>
+    </nav>
+    <div class="header"><h1>Debug your code</h1></div>
+    <div class="main">
+      <div class="leftside">
+        <textarea
+          name=""
+          id="codeInput"
+          cols="30"
+          rows="10"
+          placeholder="Write Your Code Here"
+        ></textarea>
+      </div>
+      <button class="btn" id="debugBtn">Debug</button>
+      <div class="rightside" style="color: white">
+        <textarea name="" id="codeOutput" disabled></textarea>
+      </div>
+    </div>
+    <script src="js/debug.js"></script>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
