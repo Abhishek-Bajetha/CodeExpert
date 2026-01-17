@@ -35,12 +35,20 @@ button {
   margin-bottom: 3vh;
   border-radius: 5px;
   /* border: 0.5px black solid; */
-  background-color: rgba(7, 93, 192, 0.644);
+  background-color: rgb(7, 93, 192);
   color: white;
-  padding: 6px 100px;
+  width: 90%;
+  padding: 6px 0px;
   font-weight: 300;
   font-size: 15px;
   border: none;
+}
+button:hover {
+  background-color: rgb(3, 59, 123);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
 }
 .another {
   border-top: 1px solid rgb(70, 69, 69);

@@ -1,5 +1,5 @@
 const registerForm = document.getElementById("registerForm");
-
+const submitBtn = document.getElementById("submitBtn");
 registerForm.addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -12,6 +12,9 @@ registerForm.addEventListener("submit", async (e) => {
     alert("Passwords do not match!");
     return;
   }
+
+  submitBtn.disabled = true;
+  submitBtn.innerText = "Please wait...";
 
   try {
     const response = await fetch(
@@ -39,5 +42,8 @@ registerForm.addEventListener("submit", async (e) => {
   } catch (error) {
     console.error("Error:", error);
     alert("An error occurred during registration.");
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.innerText = "Submit";
   }
 });

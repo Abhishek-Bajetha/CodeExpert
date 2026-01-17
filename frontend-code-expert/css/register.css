@@ -37,13 +37,24 @@ input {
 }
 button {
   margin-top: 0.8vh;
-  margin-bottom: 2vh;
-  border-radius: 17px;
-  border: 0.5px black solid;
-  /* background-color: rgba(6, 170, 211, 0.5); */
-  padding: 6px 20px;
-  font-weight: bold;
+  margin-bottom: 3vh;
+  border-radius: 5px;
+  /* border: 0.5px black solid; */
+  background-color: rgba(0,255,0,0.59);
+  color: white;
+  width: 90%;
+  padding: 6px 0px;
+  font-weight: 300;
   font-size: 15px;
+  border: none;  
+}
+
+button:hover {
+  background-color: rgba(0, 255, 0, 0.67);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
 }
 .anotherpage {
   border-top: 1px solid rgb(70, 69, 69);
