@@ -29,16 +29,19 @@ if (debugBtn) {
     const user = JSON.parse(userJson);
     const userId = user.id;
 
-    const response = await fetch("http://localhost:8080/api/ai/generate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        prompt: prompt,
-        userId: userId.toString(),
-        toolType: "Debugger",
-        inputCode: code,
-      }),
-    });
+    const response = await fetch(
+      "https://code-expert-80jn.onrender.com/api/ai/generate",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt: prompt,
+          userId: userId.toString(),
+          toolType: "Debugger",
+          inputCode: code,
+        }),
+      }
+    );
 
     if (response.ok) {
       const data = await response.text();

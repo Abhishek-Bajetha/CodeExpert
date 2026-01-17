@@ -14,17 +14,20 @@ registerForm.addEventListener("submit", async (e) => {
   }
 
   try {
-    constresponse = await fetch("http://localhost:8080/api/users/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        username: username,
-        email: email,
-        password: password,
-      }),
-    });
+    const response = await fetch(
+      "https://code-expert-80jn.onrender.com/api/users/register",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: username,
+          email: email,
+          password: password,
+        }),
+      }
+    );
 
     if (response.ok) {
       alert("Registration successful! Please login.");

@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 2. Fetch History
   try {
-    const response = await fetch(`http://localhost:8080/api/history/${userId}`);
+    const response = await fetch(
+      `https://code-expert-80jn.onrender.com/api/history/${userId}`
+    );
     const historyList = await response.json();
 
     // 3. Populate Table
