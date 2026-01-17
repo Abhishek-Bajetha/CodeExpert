@@ -1,5 +1,6 @@
 # 🚀 AI-Powered Code Developer Toolkit (CodeExpert)
 
+[**Live Demo** 🌐](https://code-expert-2719.netlify.app)
 > A full-stack web application that leverages Google's Gemini AI to assist developers with code conversion, debugging, optimization, and documentation.
 
 ![Project Banner](projectBanner.png)
