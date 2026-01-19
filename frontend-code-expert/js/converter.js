@@ -23,11 +23,12 @@ document.getElementById("convertBtn").addEventListener("click", async () => {
         ${code}
 
         NOTE:
-        1. Do not explain the code.
-        2. Do not use comments.
-        3. Do not describe the target programming language.
-        4. If the program requires user input, automatically provide appropriate random input where necessary.
-        5. Do not wrap the converted code in backticks or any code formatting.
+        1. If code have any syntax errors then return the Error message:"You have some error in the code Please remove your error by using Code-Debug".
+        2. Do not explain the code.
+        3. Do not use comments.
+        4. Do not describe the target programming language.
+        5. If the program requires user input, automatically provide appropriate random input where necessary.
+        6. Do not wrap the converted code in backticks or any code formatting.
         `;
 
   const userJson = localStorage.getItem("user");

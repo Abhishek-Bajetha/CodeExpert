@@ -20,13 +20,14 @@ if (docBtn) {
         ${code}
 
         NOTE:
-        1. Do not write the code.
-        2. Describe the step by steps explanation of the logic only (Not step by steps explanation of the code or keywords).
-        3. The explanation should be in the form of a step by step algorithm
-        3. Do not give any conclusion, any example.
-        4. Provide me only the small overview of the code at the starting.
-        5. Do not change the code functionality.
-        6. Do not wrap the code in backticks or any code formatting.
+        1. If code have any syntax errors then return the Error message:"You have some error in the code Please remove your error by using Code-Debug".
+        2. Do not write the code.
+        3. Describe the step by steps explanation of the logic only (Not step by steps explanation of the code or keywords).
+        4. The explanation should be in the form of a step by step algorithm
+        5. Do not give any conclusion, any example.
+        6. Provide me only the small overview of the code at the starting.
+        7. Do not change the code functionality.
+        8. Do not wrap the code in backticks or any code formatting.
         `;
 
     const userJson = localStorage.getItem("user");

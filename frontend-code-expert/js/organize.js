@@ -20,10 +20,11 @@ if (organizeBtn) {
         ${code}
 
         NOTE:
-        1. Fix indentation and formatting.
-        2. Make the code clean and readable.
-        3. Do not add comments or explanations.
-        4. Do not wrap the code in backticks or any code formatting.
+        1. If code have any syntax errors then return the Error message:"You have some error in the code Please remove your error by using Code-Debug".
+        2. Fix indentation and formatting.
+        3. Make the code clean and readable.
+        4. Do not add comments or explanations.
+        5. Do not wrap the code in backticks or any code formatting.
         `;
 
     const userJson = localStorage.getItem("user");

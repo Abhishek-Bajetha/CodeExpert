@@ -20,11 +20,12 @@ if (optimizeBtn) {
         ${code}
 
         NOTE: 
-        1. if it has any error return me the error message.
-        2. Do not explain about the code.
-        3. Do not use comments.
-        4. Also check the case senstivity of the program if it has any error.
-        5. Do not wrap the code in backticks or any code formatting.
+        1. If code have any syntax errors then return the Error message:"You have some error in the code Please remove your error by using Code-Debug".
+        2. if it has any error return me the error message.
+        3. Do not explain about the code.
+        4. Do not use comments.
+        5. Also check the case senstivity of the program if it has any error.
+        6. Do not wrap the code in backticks or any code formatting.
         `;
 
     const userJson = localStorage.getItem("user");
