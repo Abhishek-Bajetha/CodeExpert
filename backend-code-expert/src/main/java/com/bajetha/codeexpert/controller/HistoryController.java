@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/history")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://code-expert-2719.netlify.app")
 public class HistoryController {
 
     private final HistoryService historyService;

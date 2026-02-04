@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/ai")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://code-expert-2719.netlify.app")
 public class AIController {
 
     private final AIService aiService;
